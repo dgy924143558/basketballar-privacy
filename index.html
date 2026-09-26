@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AR Hoops · Privacy &amp; Support</title>
-<meta name="description" content="Privacy policy and support for AR Hoops (AR 投篮), an AR basketball shooting app for iPhone.">
+<meta name="description" content="Privacy policy and support for AR Hoops (AR 投篮) and AR Shot Practice (AR 投篮练习), AR basketball apps for iPhone.">
 <style>
   :root { --bg: #ffffff; --fg: #1c1c1e; --muted: #6e6e73; --accent: #e8650a; --card: #f5f5f7; --line: #e5e5ea; }
   @media (prefers-color-scheme: dark) {
@@ -51,35 +51,49 @@
     <a href="#support">Support</a>
     <a href="#privacy-zh">隐私政策</a>
     <a href="#support-zh">帮助与支持</a>
+    <a href="#practice-privacy">AR 投篮练习 · 隐私政策</a>
   </nav>
 
   <section id="privacy">
     <h2>Privacy Policy</h2>
-    <p class="date">Effective September 23, 2026</p>
-    <p class="summary"><strong>In short:</strong> AR Hoops does not collect, store on a server, share or sell any personal data. There are no ads, no tracking and no third-party analytics.</p>
+    <p class="date">Effective September 26, 2026 · applies to AR Hoops (AR 投篮) and AR Shot Practice (AR 投篮练习)</p>
+    <p class="summary"><strong>In short:</strong> the developer does not collect any personal data and runs no servers. There are no ads, no tracking and no third-party SDKs. What the app saves stays on your devices, in your own iCloud, and — only if you choose — on Apple's Game Center leaderboards.</p>
 
     <h3>Camera</h3>
     <p>The app uses the camera through Apple's ARKit to place a virtual hoop and ball in your surroundings and to follow your shooting motion. Camera images are processed only on your device, in real time. They are never recorded, saved or uploaded.</p>
 
-    <h3>Data stored on your device</h3>
-    <p>Your best 3-Point Contest score is saved on your iPhone so it can be shown next time. It never leaves the device and is removed when you delete the app.</p>
+    <h3>Data stored on your device and in your iCloud</h3>
+    <p>The app saves the following on your iPhone. If iCloud is turned on for the app, Apple syncs the same data between the devices signed in to your Apple Account (iCloud key-value storage), so skins you earned and your records follow you:</p>
+    <ul>
+      <li>your best Arcade and 3-Point Contest scores and your number of made shots in Practice (these unlock some ball skins);</li>
+      <li>your choices: ball skin, arcade machine skin, arcade music on/off, and whether your arcade scores join the leaderboards;</li>
+      <li>your Arcade game history: for each game, its date, score, stage, longest streak, the skins used and its world ranks;</li>
+      <li>your Practice training log: a summary of each session — when it was, shots and makes, swishes and bank shots, the longest streak, the average release angle, entry angle and arc height, how steady your push was, the shot distance, and how many misses were short, long, left or right.</li>
+    </ul>
+    <p>This data is stored in your own iCloud under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; the developer cannot see it. Deleting the app removes it from the device; you can remove the iCloud copy in Settings › [your name] › iCloud › Manage Storage.</p>
 
-    <h3>Game Center</h3>
-    <p>If you are signed in to Game Center, your 3-Point Contest scores are submitted to Apple's Game Center leaderboard under your Game Center profile, where other players can see them. This is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; the developer only sees what Game Center shows on the public leaderboard. You can turn Game Center off in Settings › Game Center.</p>
+    <h3>Photos</h3>
+    <p>If you tap "Save Image" on a result card, the app asks for permission to add that picture to your Photos library. It can only add pictures; it never reads your photos.</p>
+
+    <h3>In-app purchases</h3>
+    <p>Some ball and machine skins can be bought. Purchases are made and processed entirely by Apple through the App Store. The app only learns from Apple which skins your Apple Account owns, so it can unlock them and restore them on your other devices. The developer never receives your payment details, name or Apple Account; Apple provides only anonymous, aggregate sales reports.</p>
+
+    <h3>Game Center (AR Hoops only)</h3>
+    <p>If you are signed in to Game Center, your 3-Point Contest scores and — while "Join the leaderboards" on the arcade result card is checked (it is by default) — your Arcade scores are submitted to Apple's Game Center leaderboards (all-time and monthly) under your Game Center nickname, where other players can see them. To show your world, daily, weekly, monthly and all-time ranks, the app reads these leaderboards from Game Center. This is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Uncheck "Join the leaderboards" to keep arcade scores off the boards, or turn Game Center off in Settings › Game Center. AR Shot Practice does not use Game Center.</p>
 
     <h3>What we don't do</h3>
     <ul>
-      <li>No accounts, sign-up or login of our own.</li>
+      <li>No accounts, sign-up or login of our own, and no servers of our own.</li>
       <li>No advertising and no advertising identifiers.</li>
       <li>No tracking across apps or websites.</li>
       <li>No third-party SDKs, analytics or crash reporters. Apple may provide anonymous crash and usage statistics to the developer only if you have chosen to share them with app developers in iOS Settings.</li>
     </ul>
 
     <h3>Children</h3>
-    <p>The app is suitable for all ages and does not knowingly collect information from anyone, including children.</p>
+    <p>The app is suitable for all ages and does not knowingly collect information from anyone, including children. In-app purchases are subject to Apple's Family Sharing and Ask to Buy controls.</p>
 
     <h3>Changes</h3>
-    <p>If this policy changes, for example if a future version adds features that use data, the updated policy will be posted on this page with a new effective date before that version is released.</p>
+    <p>If this policy changes, the updated policy will be posted on this page with a new effective date before the version it describes is released.</p>
 
     <h3>Contact</h3>
     <p>Questions about privacy: <a href="https://github.com/dgy924143558/basketballar-privacy/issues">open an issue on GitHub</a>.</p>
@@ -93,13 +107,23 @@
     <ul>
       <li>Move your phone slowly until the floor is found. A preview hoop appears in front of you and follows the direction you face; tap <em>Set Hoop</em> to lock it.</li>
       <li>Your phone is your palm: the ball rests on top of it. Push the phone up and forward, and the ball leaves your hand as the motion slows down.</li>
-      <li><em>Practice</em>: real-size hoop at the free-throw line; a passing machine sends the ball back so you can catch it.</li>
+      <li><em>Practice</em>: a real-size hoop at the free-throw line. Every shot is measured — release and entry angle, arc, where it reached the rim — and the chart button shows your session and training history.</li>
+      <li><em>Arcade</em>: a street-arcade shooting machine. The clock starts when your first ball touches the rim or board. Consecutive makes raise your multiplier; a miss, or 3 seconds without shooting, halves it. Reach each stage's target to go on; every third stage is a bonus stage with bigger or extra hoops.</li>
       <li><em>3-Point Contest</em>: 5 racks around the arc (money balls worth 2), two deep balls worth 3, 70 seconds, 40 points maximum.</li>
+      <li>The house button pauses the game and goes back to the home screen, where you can change skins and then continue.</li>
+      <li>At the end of a game, the result card can be shared or saved to Photos as a picture. In Arcade, the clock button lists your past games; tap one to make its picture again.</li>
+    </ul>
+    <h3>Skins and purchases</h3>
+    <ul>
+      <li>Some skins are earned: by an arcade score, or by the total number of shots you make in Practice.</li>
+      <li>Bought skins belong to your Apple Account. On a new device, open a skin shop and tap <em>Restore Purchases</em>.</li>
+      <li>Refunds are handled by Apple: <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</li>
     </ul>
     <h3>Troubleshooting</h3>
     <ul>
       <li><em>The hoop drifts or floats:</em> scan the floor more slowly in better light, then tap the target icon to place it again.</li>
-      <li><em>Black screen:</em> allow camera access in Settings › AR Hoops.</li>
+      <li><em>Black screen or "Starting the camera…" stays:</em> allow camera access in Settings › AR Hoops, then reopen the app.</li>
+      <li><em>Records or skins don't appear on another device:</em> make sure both are signed in to the same Apple Account with iCloud on; syncing can take a minute.</li>
     </ul>
     <h3>Contact</h3>
     <p>Report a problem or suggest a feature: <a href="https://github.com/dgy924143558/basketballar-privacy/issues">GitHub Issues</a>.</p>
@@ -109,31 +133,44 @@
 
   <section id="privacy-zh" lang="zh-Hans">
     <h2>隐私政策</h2>
-    <p class="date">生效日期：2026 年 9 月 23 日</p>
-    <p class="summary"><strong>简而言之：</strong>「AR 投篮」不收集、不在服务器保存、不分享、不出售任何个人数据；没有广告、没有跟踪、没有第三方统计。</p>
+    <p class="date">生效日期：2026 年 9 月 26 日 · 适用于 AR Hoops（AR 投篮）和 AR 投篮练习</p>
+    <p class="summary"><strong>简而言之：</strong>开发者不收集任何个人数据，也没有自己的服务器；没有广告、没有跟踪、没有第三方 SDK。应用保存的数据只在你的设备、你自己的 iCloud 里，以及（仅在你选择时）Apple 的 Game Center 排行榜上。</p>
 
     <h3>相机</h3>
     <p>本应用通过 Apple 的 ARKit 使用相机，把虚拟篮筐和篮球放进你所在的空间，并识别你的投篮动作。相机画面只在你的设备上实时处理，不会被录制、保存或上传。</p>
 
-    <h3>保存在你设备上的数据</h3>
-    <p>三分大赛的最佳成绩保存在你的 iPhone 上，用于下次显示。它不会离开设备，删除应用即被清除。</p>
+    <h3>保存在设备和你的 iCloud 中的数据</h3>
+    <p>应用在你的 iPhone 上保存以下内容。如果为本应用开启了 iCloud，Apple 会在登录同一 Apple 账户的设备之间同步这些数据（iCloud 键值存储），让你解锁的皮肤和记录跟着你走：</p>
+    <ul>
+      <li>投篮机和三分大赛的最高分，以及练习模式累计投进的球数（用于解锁部分篮球皮肤）；</li>
+      <li>你的选择：篮球皮肤、投篮机皮肤、投篮机音乐开关，以及投篮机成绩是否加入排行榜；</li>
+      <li>投篮机游戏记录：每一局的时间、分数、关卡、最长连中、所用的皮肤和世界排名；</li>
+      <li>练习模式的训练记录：每次训练一条汇总——时间、投篮数和命中数、空心和打板进的数量、最长连中、平均出手角、入框角和弧线高度、推手力度的稳定性、投篮距离，以及偏短、偏长、偏左、偏右的失误数。</li>
+    </ul>
+    <p>这些数据保存在你自己的 iCloud 中，适用 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>，开发者无法查看。删除应用会清除设备上的数据；iCloud 中的副本可在「设置 › 你的名字 › iCloud › 管理储存空间」中删除。</p>
 
-    <h3>Game Center</h3>
-    <p>如果你登录了 Game Center，三分大赛成绩会以你的 Game Center 身份提交到 Apple 的 Game Center 排行榜，其他玩家可以看到。该过程由 Apple 处理，适用 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>；开发者只能看到排行榜上公开显示的内容。你可以在「设置 › Game Center」中关闭。</p>
+    <h3>照片</h3>
+    <p>如果你在结算卡片上点「保存图片」，应用会请求把这张图片添加到照片图库的权限。应用只能添加图片，不会读取你的照片。</p>
+
+    <h3>App 内购买</h3>
+    <p>部分篮球和投篮机皮肤可以购买。购买完全由 Apple 通过 App Store 处理。应用只会从 Apple 得知你的 Apple 账户拥有哪些皮肤，以便解锁并在你的其他设备上恢复。开发者不会收到你的支付信息、姓名或 Apple 账户；Apple 只向开发者提供匿名的汇总销售报告。</p>
+
+    <h3>Game Center（仅 AR Hoops）</h3>
+    <p>如果你登录了 Game Center，三分大赛成绩，以及在投篮机结算卡片上勾选「加入排行榜」（默认勾选）时的投篮机成绩，会以你的 Game Center 昵称提交到 Apple 的 Game Center 排行榜（总榜和月榜），其他玩家可以看到。为了显示你的世界、本日、本周、本月和总排名，应用会从 Game Center 读取这些排行榜。该过程由 Apple 处理，适用 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。取消勾选「加入排行榜」即可不上传投篮机成绩，也可以在「设置 › Game Center」中关闭。AR 投篮练习不使用 Game Center。</p>
 
     <h3>我们不做的事</h3>
     <ul>
-      <li>没有自己的账号、注册或登录。</li>
+      <li>没有自己的账号、注册、登录，也没有自己的服务器。</li>
       <li>没有广告，不使用广告标识符。</li>
       <li>不跨应用或网站跟踪你。</li>
       <li>不使用第三方 SDK、统计或崩溃收集工具。只有当你在 iOS 设置中选择与开发者共享时，Apple 才会向开发者提供匿名的崩溃和使用统计。</li>
     </ul>
 
     <h3>儿童</h3>
-    <p>本应用适合所有年龄，不会有意收集任何人（包括儿童）的信息。</p>
+    <p>本应用适合所有年龄，不会有意收集任何人（包括儿童）的信息。App 内购买受 Apple「家人共享」和「购买前询问」管控。</p>
 
     <h3>政策变更</h3>
-    <p>若本政策变更（例如未来版本加入使用数据的功能），更新后的政策会在该版本发布前发布在本页面，并注明新的生效日期。</p>
+    <p>若本政策变更，更新后的政策会在相应版本发布前发布在本页面，并注明新的生效日期。</p>
 
     <h3>联系</h3>
     <p>隐私相关问题：<a href="https://github.com/dgy924143558/basketballar-privacy/issues">在 GitHub 提交 issue</a>。</p>
@@ -147,16 +184,71 @@
     <ul>
       <li>缓慢移动手机直到识别到地面。预览篮筐出现在你前方，随你的朝向移动；点「固定」锁定位置。</li>
       <li>手机就是你的手掌，球托在手机上方。把手机向上向前推出，动作减速的瞬间球离手。</li>
-      <li>「练习」：罚球线距离的真实尺寸篮筐，发球机会把球传回来，迎上去接住。</li>
+      <li>「练习」：罚球线距离的真实尺寸篮筐。每一球都有数据——出手角度、入框角度、弧线、落点；点图表按钮查看本次训练和训练记录。</li>
+      <li>「投篮机」：街机投篮机玩法。第一个球碰到篮筐或篮板时开始计时；连续命中提高倍率，没进或 3 秒不出手倍率减半。达到每关目标分进入下一关，每三关有一个奖励关（大篮筐或多个篮筐）。</li>
       <li>「三分大赛」：三分线外 5 个球架（money ball 2 分）、2 个 3 分的深远区球，70 秒，满分 40。</li>
+      <li>房子按钮会暂停并回到主页，可以换皮肤后继续游戏。</li>
+      <li>每局结束的结算卡片可以作为图片分享或保存到照片。投篮机模式里点时钟按钮查看游戏记录，点任意一局可以重新生成那张图片。</li>
+    </ul>
+    <h3>皮肤与购买</h3>
+    <ul>
+      <li>部分皮肤靠投篮机分数或练习模式累计命中数解锁。</li>
+      <li>购买的皮肤属于你的 Apple 账户。换新设备后，打开皮肤商店点「恢复购买」。</li>
+      <li>退款由 Apple 处理：<a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>。</li>
     </ul>
     <h3>常见问题</h3>
     <ul>
       <li><em>篮筐漂移或悬空：</em>在光线更好的地方更慢地扫描地面，然后点准星图标重新放置。</li>
-      <li><em>黑屏：</em>在「设置 › AR 投篮」中允许使用相机。</li>
+      <li><em>黑屏或一直显示「摄像头正在加载…」：</em>在「设置 › AR 投篮」中允许使用相机，然后重新打开应用。</li>
+      <li><em>另一台设备上没有记录或皮肤：</em>确认两台设备登录同一 Apple 账户并开启 iCloud，同步可能需要一分钟。</li>
     </ul>
     <h3>联系</h3>
     <p>反馈问题或建议：<a href="https://github.com/dgy924143558/basketballar-privacy/issues">GitHub Issues</a>。</p>
+  </section>
+
+  <hr>
+
+  <section id="practice-privacy" lang="zh-Hans">
+    <h2>AR 投篮练习 · 隐私政策</h2>
+    <p class="date">生效日期：2026 年 9 月 26 日 · 适用于中国大陆版「AR 投篮练习」</p>
+    <p class="summary"><strong>简而言之：</strong>「AR 投篮练习」不收集、不上传、不分享、不出售任何个人信息。没有账号、没有广告、没有第三方 SDK，也没有 App 内购买和排行榜。</p>
+
+    <h3>我们是谁</h3>
+    <p>「AR 投篮练习」由个人开发者开发和运营，是本政策中的个人信息处理者。联系方式见本节末尾。</p>
+
+    <h3>相机权限</h3>
+    <p>为了把虚拟篮筐放进你所在的空间并识别投篮动作，应用需要使用相机（通过 Apple ARKit）。只有你允许后才会使用；相机画面只在设备上实时处理，不录制、不保存、不上传。拒绝后你可以随时在「设置 › AR 投篮练习」中重新开启。</p>
+
+    <h3>保存在设备和你的 iCloud 中的数据</h3>
+    <ul>
+      <li>训练记录：每次训练一条汇总——时间、投篮数和命中数、空心和打板进的数量、最长连中、平均出手角、入框角和弧线高度、推手力度的稳定性、投篮距离，以及偏短、偏长、偏左、偏右的失误数；</li>
+      <li>练习累计命中数和篮球皮肤选择。</li>
+    </ul>
+    <p>这些数据保存在你的 iPhone 上。如果开启了 iCloud，Apple 会在你登录同一 Apple 账户的设备之间同步（iCloud 键值存储）。开发者无法访问这些数据，也没有任何服务器接收它们。</p>
+
+    <h3>你的权利</h3>
+    <ul>
+      <li>查阅：训练记录随时可在应用的「训练」页面查看。</li>
+      <li>删除：删除应用即清除设备上的全部数据；iCloud 中的副本可在「设置 › 你的名字 › iCloud › 管理储存空间」中删除。</li>
+      <li>撤回同意：在「设置 › AR 投篮练习」中关闭相机或 iCloud。</li>
+    </ul>
+
+    <h3>我们不做的事</h3>
+    <ul>
+      <li>不收集手机号、设备标识符、位置、通讯录等任何个人信息。</li>
+      <li>没有广告，不使用任何第三方 SDK、统计或崩溃收集工具。</li>
+      <li>不向任何第三方提供、共享或转让数据。</li>
+    </ul>
+
+    <h3>未成年人</h3>
+    <p>本应用适合所有年龄，不会有意收集任何人（包括未成年人）的个人信息。</p>
+
+    <h3>政策变更</h3>
+    <p>若本政策变更，更新后的政策会在相应版本发布前发布在本页面，并注明新的生效日期；重大变更会在应用内提示。</p>
+
+    <h3 id="practice-support">帮助与联系</h3>
+    <p>使用方法：缓慢移动手机识别地面，点「固定」放好篮筐；手机就是手掌，向上向前推出即可投篮。点图表按钮查看每一球的数据和训练记录。</p>
+    <p>问题与建议：<a href="https://github.com/dgy924143558/basketballar-privacy/issues">GitHub Issues</a>。</p>
   </section>
 
   <footer>© 2026 AR Hoops · AR 投篮</footer>
